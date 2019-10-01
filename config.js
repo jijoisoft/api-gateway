@@ -14,7 +14,7 @@ module.exports = {
 			port:"7002"
 		}, 
 		{
-			path:"charity", 
+			path:"charities", 
 			port:"7003"
 		}, 
 		{
