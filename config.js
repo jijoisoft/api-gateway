@@ -1,18 +1,30 @@
 module.exports = {
-	port:8081,
+	port:8000,
 	routes:  [
 		{
-			path:"test",
-			port:"8085"
+			path:"books",
+			port:"7000"
 		},
 		{
-			path:"test2", 
-			port:"8086"
+			path:"videos", 
+			port:"7001"
 		}, 
 		{
-			path:"test", 
-			port:"8085"
+			path:"games", 
+			port:"7002"
 		}, 
+		{
+			path:"charity", 
+			port:"7003"
+		}, 
+		{
+			path:"tests", 
+			port:"7004"
+		}, 
+		{
+			path:"feeds", 
+			port:"7005"
+		} 
 	]
 
 }
