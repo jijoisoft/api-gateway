@@ -24,7 +24,11 @@ module.exports = {
 		{
 			path:"feeds", 
 			port:"7005"
-		} 
+		},  
+		{
+			path:"accounts", 
+			port:"7006"
+		}
 	]
 
 }
