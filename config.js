@@ -36,6 +36,10 @@ module.exports = {
 		{
 			path: "reviews",
 			port: "7008"
+		},
+		{
+			path: "events",
+			port: "7009"
 		}
 	]
 
